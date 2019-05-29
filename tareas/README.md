@@ -1,7 +1,7 @@
 # Tareas y respuestas
 En esta sección se detallará todas las tareas y respuestas del curso de PHP.
 
-## 01-01 Tarea HMTL y PHP
+## 01 Tarea HMTL y PHP
 Te reto a crear un archivo que mezcles HTML y PHP. 
 
 ***Pista**: tienes que seguir utilizando la extesión `.php` en tu archivo.*
@@ -23,3 +23,22 @@ La forma más legible es crear la estructura de HTML5 y utilizar las etiquetas d
   </body>
 </html>
 ```
+
+## 02 Tarea Concatenación
+Para lograrlo hay dos alternativas. La primera es crear una varible con el espacio y concatenarlo.
+``` php
+$miNombre = 'Ignacio';
+$miApellido = 'Gutiérrez';
+$espacio = ' ';
+echo 'Mi nombre completo es ' . $miNombre . $espacio . $miApellido; 
+// Resuldado:  Mi nombre completo es Ignacio Gutiérrez
+```
+
+La segunda es concatenar directamente el string dentro del `echo`
+``` php
+$miNombre = 'Ignacio';
+$miApellido = 'Gutiérrez';
+echo 'Mi nombre completo es ' . $miNombre . ' ' . $miApellido; 
+// Resuldado:  Mi nombre completo es Ignacio Gutiérrez
+```
+Las dos operaciones nos llevan al mismo resultado.

@@ -16,8 +16,8 @@ module.exports = {
     sidebar:{
       '/':[
         '',
-        '/tareas/',
-        '/fundamentos/'
+        '/fundamentos/',
+        '/tareas/'
       ]
     }
   }

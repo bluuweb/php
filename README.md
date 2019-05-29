@@ -56,9 +56,9 @@ Para ejecutar tu script de php tienes que ir a `http://localhost/fundamentos/nom
 Cuando creamos archivos explicitamente con PHP, puedes omitir la etiqueta de cierre `?>`, más adelante veremos algunos ejemplos con HTML donde explícitamente tenemos que cerrar con esta etiqueta.
 :::
 
-## 01-01 Tarea HMTL y PHP
+## 01 Tarea HMTL y PHP
 Te reto a crear un archivo que mezcles HTML y PHP. 
 
 ***Pista**: tienes que seguir utilizando la extesión `.php` en tu archivo.*
 
-[Ver respuesta aquí](/tareas/#_01-01-tarea-hmtl-y-php)
+[Ver respuesta aquí](/tareas/#_01-tarea-hmtl-y-php)
