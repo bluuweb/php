@@ -16,7 +16,8 @@ module.exports = {
     sidebar:{
       '/':[
         '',
-        'vuex'
+        'vuex',
+        '/tareas/'
       ]
     }
   }
